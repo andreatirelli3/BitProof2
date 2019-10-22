@@ -29,3 +29,5 @@ def create_report(name, full_url, domain_name, ip_address, nmap, robots_txt, who
     write_file(project_dir + '/whois.txt', whois)
 
 gather_info('google', 'https://www.google.com/')
+
+# TODO creare una procedura per l'analisi dei dati risultanti dalla procedura di crawling
